@@ -1,0 +1,10 @@
+/* ProposalEditContent Styles */
+
+.proposal-edit-container {
+  height: auto;
+  background: #fafdfd99;
+}
+
+.proposal-edit-row {
+  margin-top: 1.25rem;
+}
