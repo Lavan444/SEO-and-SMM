@@ -4,7 +4,7 @@ export const menuList = [
     {
         id: 0,
         name: "Dashboard",
-        path: "#",
+        path: "/reports/leads",
         icon: DashboardIcon
     },
 
@@ -129,7 +129,7 @@ export const menuList = [
      {
         id: 113,
         name: "Profile",
-        path: "/profile/setting",
+        path: "/applications/chat",
         icon: "feather-user"
     },
 ]

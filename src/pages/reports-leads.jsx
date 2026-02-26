@@ -9,24 +9,26 @@ import InquiryTrackingChart from '@/components/widgetsCharts/InquiryTrackingChar
 import InquiryChannelChart from '@/components/widgetsCharts/InquiryChannelChart'
 import LeadsStatistics from '@/components/widgetsStatistics/LeadsStatistics'
 import LeadsStatusTwo from '@/components/widgetsTables/LeadsStatusTwo'
+import SeoDashboard from '@/components/Dashboard/SeoDashboard'
 
 const ReportsLeads = () => {
     return (
         <>
-            <PageHeader >
+            {/* <PageHeader >
                 <PageHeaderWidgets />
-            </PageHeader>
+            </PageHeader> */}
             <div className='main-content'>
                 <div className='row'>
-                    <LeadsStatistics />
-                    <InquiryTrackingChart />
+                    <SeoDashboard />
+                    {/* <LeadsStatistics /> */}
+                    {/* <InquiryTrackingChart />
                     <InquiryChannelChart />
                     <LeadsStatusTwo />
                     <ScheduleTwo title={"Upcoming Events"} data={upcomingEventsData.slice(0, 3)} />
-                    <ProjectLeads />
+                    <ProjectLeads /> */}
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

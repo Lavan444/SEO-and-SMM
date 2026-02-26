@@ -4,6 +4,7 @@ import CardLoader from "@/components/shared/CardLoader";
 import useCardTitleActions from "@/hooks/useCardTitleActions";
 import { FiTrash2 } from "react-icons/fi";
 import InputTopLabel from "../shared/InputTopLabel";
+import InputTopLabelSecure from "../shared/InputTopLabelSecure";
 
 const recommendationData = [
   {
@@ -57,7 +58,7 @@ const ProfileSetting = ({ title }) => {
               </small>
             </div>
 
-            <div className="col-xxl-8 col-md-6 ">
+            <div className="col-xxl-10 col-md-6 ">
               <div className="p-4 h-100 card">
                 <div className="d-flex justify-content-start align-items-start">
                   <a href="#" data-bs-toggle="dropdown" role="button">
@@ -210,7 +211,7 @@ const ProfileSetting = ({ title }) => {
               </div>
             </div>
             {/* 2️⃣ Language Guidelines */}
-            <div className="col-xxl-4 col-md-6">
+            {/* <div className="col-xxl-4 col-md-6">
               <div className="card p-4 shadow-sm rounded-4">
                 <h6 className="fw-bold mb-3">Account Status</h6>
 
@@ -246,7 +247,196 @@ const ProfileSetting = ({ title }) => {
 
 
               </div>
+            </div> */}
+          </div>
+
+
+         
+        </div>
+
+            <div className="card-body mt-5">
+          <div className="row g-4">
+            <div className="card-header ms-3">
+              <h5 className="card-title text-dark mb-0">Change Password</h5>
+              <small className="text-muted">
+                Ensure Your account is using a long, random password to stay secure.
+              </small>
             </div>
+
+            <div className="col-xxl-10 col-md-6 ">
+              <div className="p-4 h-100 card">
+               
+
+                <div className="row mt-2">
+                  <div className="col-6 mt-2">
+                      
+                      
+
+                    <InputTopLabelSecure
+                      label="Current Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+
+                  </div>
+                  <div className="col-6 mt-2">
+                     <InputTopLabelSecure
+                      label="New Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+                  </div>
+                  <div className="col-6 mt-2">
+                    <InputTopLabelSecure
+                      label="Re-Enter Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+                  </div>
+
+                  
+                </div>
+
+                <button
+                  className="custom-btn border-0 mt-4"
+                  style={{ width: "fit-content" }}
+                >
+                  Save Changed
+                </button>
+
+               
+
+                
+           
+
+
+              </div>
+            </div>
+          
+          </div>
+
+
+         
+        </div>
+
+           <div className="card-body mt-5">
+          <div className="row g-4">
+            <div className="card-header ms-3">
+              <h5 className="card-title text-dark mb-0">Data Management</h5>
+              <small className="text-muted">
+                Control your organisation Data and portability
+              </small>
+            </div>
+
+            <div className="col-xxl-5 col-md-6 ">
+              <div className="p-4 h-100 card">
+               
+
+                <div className="row mt-2">
+                  <div className="col-6 mt-2">
+                      
+                      
+
+                    <InputTopLabelSecure
+                      label="Current Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+
+                  </div>
+                  <div className="col-6 mt-2">
+                     <InputTopLabelSecure
+                      label="New Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+                  </div>
+                  <div className="col-6 mt-2">
+                    <InputTopLabelSecure
+                      label="Re-Enter Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+                  </div>
+
+                  
+                </div>
+
+                <button
+                  className="custom-btn border-0 mt-4"
+                  style={{ width: "fit-content" }}
+                >
+                  Save Changed
+                </button>
+
+               
+
+                
+           
+
+
+              </div>
+            </div>
+
+               <div className="col-xxl-5 col-md-6 ">
+              <div className="p-4 h-100 card">
+               
+
+                <div className="row mt-2">
+                  <div className="col-6 mt-2">
+                      
+                      
+
+                    <InputTopLabelSecure
+                      label="Current Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+
+                  </div>
+                  <div className="col-6 mt-2">
+                     <InputTopLabelSecure
+                      label="New Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+                  </div>
+                  <div className="col-6 mt-2">
+                    <InputTopLabelSecure
+                      label="Re-Enter Password"
+                      type="password"
+                      placeholder="**********"
+                      isRequired
+                    />
+                  </div>
+
+                  
+                </div>
+
+                <button
+                  className="custom-btn border-0 mt-4"
+                  style={{ width: "fit-content" }}
+                >
+                  Save Changed
+                </button>
+
+               
+
+                
+           
+
+
+              </div>
+            </div>
+          
           </div>
 
 
